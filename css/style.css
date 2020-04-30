@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vmin;
+  height: 100vmin;
+  margin: 0 auto;
+}
+
+.wrapper button {
+  width: 33%;
+  height: 33%;
+  font-size: 64px;
+  margin: 0;
+  float: left;
+}

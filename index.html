@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kółko i krzyżyk</title>
+  <script src="js/angular.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div ng-app="app" ng-controller="appController">
+
+    <div class="wrapper">
+      <button ng-click="onGameBtnClick(1)" ng-disabled="!!board[0]">{{ board[0] }}</button>
+      <button ng-click="onGameBtnClick(2)" ng-disabled="!!board[1]">{{ board[1] }}</button>
+      <button ng-click="onGameBtnClick(3)" ng-disabled="!!board[2]">{{ board[2] }}</button>
+      <button ng-click="onGameBtnClick(4)" ng-disabled="!!board[3]">{{ board[3] }}</button>
+      <button ng-click="onGameBtnClick(5)" ng-disabled="!!board[4]">{{ board[4] }}</button>
+      <button ng-click="onGameBtnClick(6)" ng-disabled="!!board[5]">{{ board[5] }}</button>
+      <button ng-click="onGameBtnClick(7)" ng-disabled="!!board[6]">{{ board[6] }}</button>
+      <button ng-click="onGameBtnClick(8)" ng-disabled="!!board[7]">{{ board[7] }}</button>
+      <button ng-click="onGameBtnClick(9)" ng-disabled="!!board[8]">{{ board[8] }}</button>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
